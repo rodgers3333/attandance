@@ -5,12 +5,14 @@
     font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.container {
+body {
     background: rgba(9, 9, 9, 0.9);
+}
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     flex-direction: column;
     padding: 0;
 }
