@@ -35,8 +35,8 @@ img {
 .main .link {
     text-decoration: none;
     background: rgb(135, 206, 235);
-    padding: 10px 150px;
-    font-size: 16px;
+    padding: 5px 100px;
+    font-size: 18px;
     color: black;
     border-radius: 20px;
 }
@@ -46,6 +46,6 @@ img {
     color: rgb(255, 255, 255, 0.5);
 }
 
-.main a:hover {
+.main .link:hover {
     background: rgb(135, 206, 235, 0.7);
 }
