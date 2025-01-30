@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background: rgba(9, 9, 9, 0.9);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+}
+
+.main h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.main p {
+    text-align: center;
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.nav {
+    margin: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.nav ul li {
+    list-style-type:  none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+}
+
+.main {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ .form .btn {
+    text-decoration: none;
+    background: rgb(135, 206, 235);
+    padding: 10px 150px;
+    font-size: 16px;
+    color: black;
+    border-radius: 20px;
+    border:  none;
+}
+
+.fas {
+    width: 30px;
+    color: rgb(255, 255, 255, 0.5);
+}
+
+.fas:hover {
+    cursor: pointer;
+}
+
+#msg {
+    font-size: 14px;
+    color: rgb(255, 255, 255, 0.5);
+}
+
+.form .btn:hover {
+    cursor: pointer;
+    background: rgb(255, 255, 255, 0.5);
+}
+
+textarea {
+    width: 400px;
+    height: 150px;
+    margin-bottom: 20px;
+    background: rgb(0, 0, 0);
+    border: 1pxrgb(255, 255, 255, 0.5);
+    padding: 10px;
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+
+textarea::placeholder {
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 14px;
+}
