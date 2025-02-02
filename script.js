@@ -6,6 +6,7 @@ form.addEventListener('submit', e => {
     e.preventDefault();
     fetch(scriptURL, { method: 'POST', body: new FormData(form) })
     .then(response => {
+        console.log('Response status:', response.status); // Log the response status
         if (response.ok) {
             msg.innerHTML = "Form submitted successfully!";
             msg.style.color = "green";
