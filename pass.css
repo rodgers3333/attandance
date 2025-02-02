@@ -62,7 +62,7 @@ body {
     align-items: center;
 }
 
- .form .btn {
+ .form button {
     text-decoration: none;
     background: rgb(135, 206, 235);
     padding: 10px 110px;
