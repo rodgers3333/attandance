@@ -86,7 +86,7 @@ body {
     color: rgb(255, 255, 255, 0.5);
 }
 
-.form .btn:hover {
+.form button:hover {
     cursor: pointer;
     background: rgb(255, 255, 255, 0.5);
 }
